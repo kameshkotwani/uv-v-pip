@@ -1,0 +1,31 @@
+Result of pip libraries: pandas, numpy,matplotlib,scikit-learn,jupyter,streamlit, scipy, seaborn
+real    2m16.525s
+user    0m0.756s
+sys     0m0.440s
+
+Result of uv: libraries: pandas, numpy,matplotlib,scikit-learn,jupyter,streamlit, scipy, seaborn
+real    1m31.011s
+user    0m0.599s
+sys     0m0.356s
+
+Result of pip with libraries: pandas, numpy,matplotlib,scikit-learn,jupyter,streamlit, scipy, seaborn, keras 
+real    2m34.268s
+user    0m0.732s
+sys     0m0.389s
+
+Result of uv with libraries: pandas, numpy,matplotlib,scikit-learn,jupyter,streamlit, scipy, seaborn, keras 
+real    1m18.780s
+user    0m0.624s
+sys     0m0.340s
+
+Result of pip with libraries: pandas,numpy,matplotlib,scikit-learn,jupyter,streamlit,scipy,seaborn,keras,torch,mlflow,fastapi,missingno,xgboost,lightgbm,catboost
+real    12m46.376s
+user    0m1.859s
+sys     0m1.034s
+
+Result of uv with libraries: pandas,numpy,matplotlib,scikit-learn,jupyter,streamlit,scipy,seaborn,keras,torch,mlflow,fastapi,missingno,xgboost,lightgbm,catboost
+real    7m12.388s
+user    0m0.754s
+sys     0m0.439s
+
+

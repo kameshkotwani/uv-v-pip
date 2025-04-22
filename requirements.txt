@@ -1,0 +1,16 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+jupyter
+streamlit
+scipy
+seaborn
+keras
+torch
+mlflow
+fastapi
+missingno
+xgboost
+lightgbm
+catboost

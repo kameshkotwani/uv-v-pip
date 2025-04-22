@@ -1,0 +1,21 @@
+[project]
+name = "ml-fast-env"
+version = "0.1.0"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "scikit-learn",
+    "jupyter",
+    "streamlit",
+    "scipy",
+    "seaborn",
+    "keras",
+    "torch",
+    "mlflow",
+    "fastapi",
+    "missingno",
+    "xgboost",
+    "lightgbm",
+    "catboost"
+]

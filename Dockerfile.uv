@@ -1,0 +1,22 @@
+# Use a Python image with uv pre-installed
+FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim
+
+# Enable bytecode compilation
+ENV UV_COMPILE_BYTECODE=1
+
+# Disable link mode and cache
+ENV UV_LINK_MODE=copy
+ENV UV_NO_CACHE=1
+
+# Copy the dependency files
+COPY pyproject.toml .
+
+# Install the dependencies (excluding dev packages and project install)
+RUN uv sync
+
+
+# Update PATH to include virtual env binaries
+ENV PATH="/app/.venv/bin:$PATH"
+
+# Remove default entrypoint
+ENTRYPOINT []
