@@ -1,0 +1,4 @@
+Library Set, pip Build Time, uv Build Time
+Basic ML stack, 2m16s, 1m31s
+Extended stack (with keras), 2m34s, 1m18s
+Full data science stack, 12m46s, 7m12s
